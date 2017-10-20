@@ -1,0 +1,468 @@
+body {
+  background: url(../back.png);
+  background-attachment: fixed;
+  font: 17px Calibri;
+  letter-spacing: 0px;
+  color: #000032;
+}
+
+.img_note {
+  width: 400px;
+  float: center;
+  height: auto;
+  /*background:#000000; */
+  background: rgba(0, 0, 0, 0.85);
+  margin-top: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: rotate(-3deg);
+}
+
+.img_note:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: rotate(3deg);
+}
+
+.status1 {
+  width: 400px;
+  float: center;
+  height: auto;
+  background: rgba(132, 166, 224, 0.9);
+  margin-top: 10px;
+  padding: 10px;
+  color: black;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.status1.red {
+  background: rgba(255, 123, 155, 0.9);
+  color: rgb(105, 20, 20);
+  border: 0.5px solid;
+}
+
+.status1.blue {
+  background: rgba(114, 132, 230, 0.9);
+  /*border: 2px solid rgba(255, 255, 255, 0.69);
+    color: aliceblue;*/
+  border: 0.5px solid;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.status1.green {
+  background: rgba(117, 230, 117, 0.9);
+  /*border: 2px solid rgba(255, 255, 255, 0.69);
+    color: aliceblue;*/
+  border: 0.5px solid;
+  color: rgba(36, 47, 36, 0.9);
+}
+
+.status1.purple {
+  background: rgba(197, 188, 226, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.69);
+    /*color: aliceblue;*/
+}
+
+.status1.magenta {
+  background: rgba(204, 52, 129, 0.9);
+  color: rgba(255, 255, 255, 0.9);
+  border: 0.5px solid;
+}
+
+.baru {
+  border: 3px solid;
+  border-color: white;
+}
+
+textarea.nangningnung:hover {
+  transform: scale(1.1);
+}
+
+.saadah.navbar-fixed-top.top-nav-collapse {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.saadah.navbar-fixed-top.top-nav-collapse:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.saadah1 {
+  width: 1366;
+  float: center;
+  position: absolute;
+  height: auto;
+  background: transparent;
+  margin-top: 0px;
+  padding: 0px;
+  color: #b1b1b1;
+  list-style: none;
+  top: 0px;
+  left: 0px;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.saadah {
+  width: 1366px;
+  float: center;
+  position: fixed;
+  height: auto;
+  background: rgba(255, 255, 255, 0.9);
+  margin-top: 0px;
+  padding: 0px;
+  color: #b1b1b1;
+  list-style: none;
+  top: 0px;
+  left: 0px;
+  border-color: red;
+  border: solid;
+  border-width: 0 0 1px;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.saadah:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.cute {
+  background: red;
+  font: 30px Consolas;
+}
+
+.cute:hover {
+  background: white;
+  font: 19px Cute Enung;
+}
+
+.status1:hover {
+  /*font:15px Arial;
+    */
+  background: rgba(255, 255, 255, 0.85);
+  color: rgba(0, 0, 0, 0.5);
+  border: 0.5px solid;
+  transform: rotate(3deg);
+  padding: 15;
+}
+
+jam {
+  font: 12px Century Gothic;
+}
+
+input.masuk {
+  font: 18px Century Gothic;
+  border: 1px solid;
+  border-radius: 1;
+  font: inherit;
+  color: #333;
+  background-color: #fff;
+  /*border-color: #000000;*/
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0px 0px;
+  margin-bottom: 0;
+  /*font-size: 30px;*/
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  border: 1px solid transparent;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input.masuk:hover, .masuk:focus {
+  border: 1px solid;
+  border-color: magenta;
+  font-size: 34px;
+}
+
+input.cari {
+  font: inherit;
+  border: 1px solid;
+  border-color: white;
+}
+
+input.cari:hover {
+  font: inherit;
+  border: 1px solid;
+  border-color: magenta;
+}
+
+input.balas {
+  padding: 10px;
+  height: 40px;
+  width: 430px;
+  font: inherit;
+  border: 1px solid;
+  border-color: white;
+}
+
+input.balas:hover {
+  font: inherit;
+  border: 1px solid;
+  border-color: magenta;
+}
+
+input[type="file" i]::-webkit-file-upload-button {
+  font: inherit;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  border-radius: 0px;
+  display: inline-block;
+  padding: 2px 1px;
+  margin-bottom: 0;
+  /*font-size: 30px;*/
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 5px solid transparent;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+textarea {
+  font: 18px Century Gothic;
+  border: 1px solid;
+  border-radius: 1;
+  font: inherit;
+  color: #333;
+  background-color: #fff;
+  /*border-color: #000000;*/
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0px 0px;
+  margin-bottom: 0;
+  /*font-size: 30px;*/
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0, 1.59);
+  /* all 0.2s cubic-bezier(0, 1.65, 0.08, 2.57) */
+}
+
+textarea:hover {
+  background: black;
+  color: white;
+}
+
+select:hover {
+  background: black;
+  color: white;
+}
+
+select {
+  font: inherit;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+textarea:hover {
+  transform: rotate(-3deg);
+}
+
+textarea:focus {
+  transform: rotate(3deg);
+}
+
+button {
+  font: inherit;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  border-radius: 0px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  /*font-size: 30px;*/
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 5px solid transparent;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+button.atas {
+  font-size: 25px;
+  background: transparent;
+  color: transparent;
+}
+
+button.atas.ning {
+  display: block;
+  background: black;
+  color: white;
+}
+
+button.atas.ning:hover {
+  display: block;
+}
+
+button.suka {
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border-radius: 100%;*/
+  float: left;
+  color: rgba(0, 0, 0, 0.9);
+  border: 0.5px solid;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+button.bls {
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.9);
+  float: right;
+  color: rgba(0, 0, 0, 0.7);
+  border: 0.5px solid;
+}
+
+button.bls:hover {
+  margin-bottom: 0px;
+  font-size: 14px;
+  cursor: default;
+}
+
+button.suka:hover {
+  margin-bottom: 56px;
+  font-size: 13px;
+  cursor: default;
+}
+
+nama {
+  font-size: 12px bold;
+  /*  background-color: rgba(255, 255, 255, 0.8); */
+  background-color: inherit;
+  float: right;
+  margin-top: -40px;
+  margin-right: -10px;
+  padding: 5px;
+}
+
+button:hover {
+  font-size: 30px;
+  background: black;
+  color: white;
+  transform: rotate(-3deg);
+}
+
+button:active {
+  transform: rotate(-5deg);
+}
+
+yani {
+  color: transparent;
+}
+
+yani:hover {
+  color: white;
+}
+
+yani1 {
+  font-size: 13px;
+  color: inherit;
+}
+
+enung {
+  color: blue;
+}
+
+assalamualaikum {
+  margin-left: 50px;
+  width: auto;
+  padding: 2px;
+  font: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: gray;
+  text-transform: uppercase;
+  display: inline-block;
+  /*border: 1px solid;
+    /*border-radius:360%;*/
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+assalamualaikum#kanan {
+  float: right!important;
+  margin-right: 40px;
+}
+
+assalamualaikum#judul {
+  float: left!important;
+  margin-right: 160px;
+}
+
+assalamualaikum:hover {
+  color: white;
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.kanan {
+  float: right!important;
+  margin-right: -15px;
+}
